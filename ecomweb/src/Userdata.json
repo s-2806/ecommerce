@@ -1,0 +1,72 @@
+{
+    "users": [
+        {
+            "name": "John Doe",
+            "age": 30,
+            "email": "johndoe@example.com",
+            "reviews": [
+                {
+                    "product": "Product A",
+                    "rating": 4,
+                    "comment": "Great product! Highly recommended."
+                },
+                {
+                    "product": "Product B",
+                    "rating": 3,
+                    "comment": "Decent product, but could be better."
+                }
+            ]
+        },
+        {
+            "name": "Jane Smith",
+            "age": 25,
+            "email": "janesmith@example.com",
+            "reviews": [
+                {
+                    "product": "Product C",
+                    "rating": 5,
+                    "comment": "Amazing product! Love it."
+                },
+                {
+                    "product": "Product D",
+                    "rating": 2,
+                    "comment": "Not satisfied with the quality."
+                }
+            ]
+        },
+        {
+            "name": "Lhospital",
+            "age": 31,
+            "email": "lhospital@example.com",
+            "reviews": [
+                {
+                    "product": "Product A",
+                    "rating": 4,
+                    "comment": "Great product! Highly recommended."
+                },
+                {
+                    "product": "Product B",
+                    "rating": 3,
+                    "comment": "Decent product, but could be better."
+                }
+            ]
+        },
+        {
+            "name": "Edwin",
+            "age": 30,
+            "email": "edwin@example.com",
+            "reviews": [
+                {
+                    "product": "Product A",
+                    "rating": 4,
+                    "comment": "Great product! Highly recommended."
+                },
+                {
+                    "product": "Product B",
+                    "rating": 3,
+                    "comment": "Decent product, but could be better."
+                }
+            ]
+        }
+    ]
+}
