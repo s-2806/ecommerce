@@ -1,0 +1,34 @@
+{
+    "bestsellers":[
+        {
+            "id":1,
+            "name":"The Great Gatsby",
+            "author":"F. Scott Fitzgerald",
+            "price":799
+        },
+        {
+            "id":2,
+            "name":"The Catcher in the Rye",
+            "author":"J.D. Salinger",
+            "price":699
+        },
+        {
+            "id":3,
+            "name":"To Kill a Mockingbird",
+            "author":"Harper Lee",
+            "price":899
+        },
+        {
+            "id":4,
+            "name":"1984",
+            "author":"George Orwell",
+            "price":999
+        },
+        {
+            "id":5,
+            "name":"Brave New World",
+            "author":"Aldous Huxley",
+            "price":1099
+        }
+    ]
+}
