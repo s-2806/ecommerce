@@ -1,6 +1,6 @@
 import React from 'react';
-const Cards = (props) => {
-    const { booksBS } = props;
+const Cards = ({ booksBS }) => {
+   
     const cart= "https://th.bing.com/th/id/OIP.0B9qUkgn0IAUO6e2pP0pYQHaHa?rs=1&pid=ImgDetMain"
     let heart="https://www.pngitem.com/pimgs/m/527-5277906_white-heart-vector-png-transparent-png.png"
     return (
