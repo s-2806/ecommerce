@@ -2,33 +2,32 @@
     "bestsellers":[
         {
             "id":1,
+            "image":"https://tse4.mm.bing.net/th?id=OIP.P1hfBfyKdnmO2R82Ow3lewHaLH&pid=Api&P=0&h=180",
             "name":"The Great Gatsby",
             "author":"F. Scott Fitzgerald",
             "price":799
         },
         {
             "id":2,
+            "image":"https://tse3.mm.bing.net/th?id=OIP.5hZoDAB3hlq_ZWRZ70uxMAHaLH&pid=Api&P=0&h=180",
             "name":"The Catcher in the Rye",
             "author":"J.D. Salinger",
             "price":699
         },
         {
             "id":3,
+            "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "name":"To Kill a Mockingbird",
             "author":"Harper Lee",
             "price":899
         },
         {
             "id":4,
+            "image":"https://tse1.mm.bing.net/th?id=OIP.CdyrOwdv2Mre-ZhrSzJ7lwHaJM&pid=Api&P=0&h=180",
             "name":"1984",
             "author":"George Orwell",
             "price":999
-        },
-        {
-            "id":5,
-            "name":"Brave New World",
-            "author":"Aldous Huxley",
-            "price":1099
         }
+       
     ]
 }
