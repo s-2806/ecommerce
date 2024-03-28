@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Cards from './Cards';
+
 const Bestsellers = () => {
     const [booksBS, setBooksBS] = useState(null);
      useEffect(() => {
@@ -15,7 +16,7 @@ const Bestsellers = () => {
                 })
         },[]);
     return ( 
-        <div className="Bestsellers">
+        <div className="Bestsellers" id='Bestsellers'>
             <h2 className="headingbestsellers">Bestsellers</h2>
          {booksBS && <div className='bestsellersparent'> <Cards booksBS={ booksBS }/> </div>}
         </div>

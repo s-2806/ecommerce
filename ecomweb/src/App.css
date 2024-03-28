@@ -1,7 +1,26 @@
 .App {
   text-align: center;
+  background-color: rgb(255, 194, 222);
+  position: relative;
+  scroll-behavior: smooth;
 }
-
+.topbtn{
+  position: sticky;
+  bottom: 10px;
+  width:1%;
+  left:99%;
+  background-color: #282c34;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+.topbtn a{
+  color: white;
+  text-decoration: none;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,40 +53,42 @@
   }
 }
 .Navbar{
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   column-gap: 10px;
   align-items: center;
-  background-color: #282c34;
+  background-color: #f6276c;
   color: white;
   padding: 10px 20px;
+  scroll-behavior: smooth;
 }
 .Navbarrightside {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   column-gap: 30px;
   align-items: center;
-  background-color: #282c34;
+  background-color: #f6276c;
   color: white;
   padding: 10px 20px;
   font-size: large;
 }
 .Navbarleftside {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   column-gap: 10px;
   align-items: center;
-  background-color: #282c34;
+  background-color: #f6276c;
   color: white;
   padding: 10px 20px;
   font-size: x-large;
 }
 .B{
-  color: red;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 40px   ;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
+  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+*/}
 .pic{
   width:40px;
   height: 50px;
@@ -75,6 +96,17 @@
 .About{
   color: red;
   font-size: 40px;
+}
+.About div{
+  /* display: flex; */
+  justify-content: space-between;
+  justify-items: center;
+  column-gap: 1px;
+  align-items: center;
+  color: #f6276c;
+  /* padding: 10px 20px; */
+  font-size: 25px;
+
 }
 .headingbestsellers{
   color: red;
@@ -88,38 +120,38 @@
 } */
 .bestsellersparent{
   display: flex;
-  justify-content: space-between;
-  column-gap: 5px;
+  /* justify-content: space-between; */
+  column-gap: 25px;
   row-gap: 60px;
   align-items: center;
-  width: 100%;
-  background-color: #282c34;
+  /* width: 100%; */
+  background-color: rgb(255, 194, 222);
   color: white;
   padding: 10px 20px;
   font-size: x-large;
   flex-wrap: wrap;
 }
 .card{
-  width:20%;
+  width:22%;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgb(249, 104, 104);
-  padding: 29px;
+  background-color:#f6276c ;
+  padding:10px;
+  font-size: 85%;
   
-  height: 760px;
 }
-.bookcover {
-  width: 100%;
-  height: 400px;
+.card img.bookcover {
+  width: 30%;
+  height: 100px;
   border-radius: 10px;
 }
 .card img.cartpic{
-  width: 100%;
+  width: 50%;
   height: 35px;
   border-radius: 1px;
 }
 .card img.heart {
-  width: 100%;
+  width: 50%;
   height: 35px;
   border-radius: 1px;
   
@@ -133,4 +165,101 @@
   cursor: pointer;
   margin-bottom: 15px;
 }
+.Navbarrightside a{
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 5px;
+}
+.Navbarrightside a:hover{
+  color: black;
+  background-color: white;
+}
+.card button.cart{
+  background-color: white;
+  color: white;
+  padding:0px 0px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.card button.liked {
+  background-color: white;
+  color: white;
+  padding: 0px 0px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.Contactus{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 35%;
+  margin-left: 30%;
+  margin-right: 35%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f6276c;
+  box-shadow: 0 0 10px 0 black
 
+}
+.Contactus form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 10px;
+   align-items: center; 
+  background-color: #f6276c;
+  color: white;
+  padding: 10px 2px;
+  font-size: 25px;
+}
+.Contactus input{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;;
+  background-color: rgb(255,255,255,0.8);
+  transition: 0.15s all ease;
+} 
+
+
+
+.Contactus textarea{
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+.Contactus button{
+  background-color: #282c34;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Contactus button:hover{
+  box-shadow:  1px 1px black;
+}
+.Contactus h3{
+  color: white;
+  font-size: 40px;
+}
+.collection h2{
+  color: red;
+  font-size: 40px;
+}
+.Ourcollection{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 20px;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  font-size: x-large;
+  flex-wrap: wrap;
+}
