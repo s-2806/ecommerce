@@ -195,6 +195,7 @@
 }
 .Contactus{
   margin-top: 50px;
+  margin-bottom: 50px;;
   border-radius: 10px;
   width: 35%;
   margin-left: 30%;
@@ -262,4 +263,17 @@
   padding: 10px 20px;
   font-size: x-large;
   flex-wrap: wrap;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+ margin-top: 50px;
+  width:100%;
+  background-color: #f6276c;
+  
+}
+.footer-text a img{
+  width:20px;
+  height: 20px;
+  margin-left: 10px;
 }
