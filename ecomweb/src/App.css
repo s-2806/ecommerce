@@ -1,26 +1,41 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
-  background-color: rgb(255, 194, 222);
+  background-color:rgb(255, 255, 255);
   position: relative;
-  scroll-behavior: smooth;
+ 
 }
 .topbtn{
   position: sticky;
   bottom: 10px;
-  width:1%;
+  width:5%;
+  height: 1%;
   left:99%;
   background-color: #282c34;
   color: white;
-  padding: 10px 20px;
   border-radius: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  scroll-behavior: smooth;
+  font-size: 5%;
+ 
 }
 .topbtn a{
   color: white;
   text-decoration: none;
+ /* background-color: white; */
+ font-size: x-large;
+cursor: pointer;
 }
+/* .topbtn:hover{
+  color: black;
+  background-color: white;
+  
+} */
+/* .topbtn a:hover{
+  color: black;
+  background-color: white;
+} */
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -58,17 +73,17 @@
   justify-content: space-between;
   column-gap: 10px;
   align-items: center;
-  background-color: #f6276c;
+  background-color: rgb(33, 158, 188);
   color: white;
   padding: 10px 20px;
-  scroll-behavior: smooth;
+ 
 }
 .Navbarrightside {
   display: flex;
   justify-content: space-around;
   column-gap: 30px;
   align-items: center;
-  background-color: #f6276c;
+  background-color: rgb(33,158,188);
   color: white;
   padding: 10px 20px;
   font-size: large;
@@ -78,10 +93,21 @@
   justify-content: space-around;
   column-gap: 10px;
   align-items: center;
-  background-color: #f6276c;
+  background-color: rgb(33, 158, 188);
   color: white;
   padding: 10px 20px;
   font-size: x-large;
+}
+.Navbarrightside a {
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 5px;
+}
+
+.Navbarrightside a:hover {
+  color: black;
+  background-color: white;
 }
 .B{
   color: rgb(255, 255, 255);
@@ -93,23 +119,51 @@
   width:40px;
   height: 50px;
 }
-.About{
-  color: red;
-  font-size: 40px;
+#background{
+ position: relative;
+  background-image: url(https:cdn.wallpapersafari.com/83/55/WbvsGD.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position-y: bottom;
+  background-image: cover;
+  height: 80vh;
+  width: 100%;
+
+  /* color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
+#info{
+  width: 50%;
+  margin-left: 50%;
+}
+.About{
+  margin-top: 2%;
+  position: absolute;
+  background: "https: //i.etsystatic.com/7758902/r/il/813bf0/3270241369/il_1588xN.3270241369_2i9s.jpg";
+}
+/* #background{
+  background-image: url(http://cliparts.co/cliparts/yck/rp5/yckrp5kqi.jpg);
+  background-size: cover;
+} */
 .About div{
-  /* display: flex; */
   justify-content: space-between;
   justify-items: center;
   column-gap: 1px;
   align-items: center;
-  color: #f6276c;
-  /* padding: 10px 20px; */
-  font-size: 25px;
-
+  color: black;
+    font-size: 2vw;
+    margin-right:30% ;
 }
 .headingbestsellers{
-  color: red;
+  color: rgb(3,
+    4,
+    94);
   font-size: 40px;
 }
 /* .heart{
@@ -124,8 +178,9 @@
   column-gap: 25px;
   row-gap: 60px;
   align-items: center;
+  justify-content: center;
   /* width: 100%; */
-  background-color: rgb(255, 194, 222);
+  background-color: 8ecae6;
   color: white;
   padding: 10px 20px;
   font-size: x-large;
@@ -135,14 +190,14 @@
   width:22%;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  background-color:#f6276c ;
-  padding:10px;
-  font-size: 85%;
-  
+  background-color:219ebc ;
+  padding:5px;
+  font-size: 65%;
+  color: black;
+  background-color: rgb(142, 202, 230);
 }
 .card img.bookcover {
-  width: 30%;
-  height: 100px;
+  width: 60%;
   border-radius: 10px;
 }
 .card img.cartpic{
@@ -151,36 +206,27 @@
   border-radius: 1px;
 }
 .card img.heart {
-  width: 50%;
+  /* width: 50%; */
   height: 35px;
   border-radius: 1px;
-  
-}
-.buynow{
-  background-color: #282c34;
-  color: white;
-  padding: 10px 20px;
   border-radius: 10px;
-  font-size: 25px;
-  cursor: pointer;
-  margin-bottom: 15px;
-}
-.Navbarrightside a{
+  }
+.buynow{
+  background-color: rgb(40, 44, 52,0.7);
   color: white;
-  text-decoration: none;
-  border-radius: 15px;
-  padding: 5px 5px;
+  padding: 10% 20%S;
+  border-radius: 10px;
+  font-size: 100%;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
-.Navbarrightside a:hover{
-  color: black;
-  background-color: white;
-}
+
 .card button.cart{
   background-color: white;
   color: white;
   padding:0px 0px;
   border-radius: 10px;
-  font-size: 15px;
+  /* font-size: 15px; */
   cursor: pointer;
   margin-bottom: 5px;
 }
@@ -189,20 +235,19 @@
   color: white;
   padding: 0px 0px;
   border-radius: 10px;
-  font-size: 15px;
   cursor: pointer;
-  margin-bottom: 5px;
+ background-color: rgb(255, 255, 255);
 }
 .Contactus{
   margin-top: 50px;
   margin-bottom: 50px;;
   border-radius: 10px;
-  width: 35%;
+  width: 40%;
   margin-left: 30%;
-  margin-right: 35%;
+  margin-right: 30%;
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: #f6276c;
+  background-color:rgb(33, 158, 188);
   box-shadow: 0 0 10px 0 black
 
 }
@@ -211,8 +256,8 @@
   flex-direction: column;
   justify-content: space-between;
   row-gap: 10px;
-   align-items: center; 
-  background-color: #f6276c;
+   /* align-items: center;  */
+  background-color:rgb(33, 158, 188);
   color: white;
   padding: 10px 2px;
   font-size: 25px;
@@ -220,12 +265,16 @@
 .Contactus input{
   padding: 10px 20px;
   font-size: 20px;
-  border-radius: 5px;;
+  border-radius: 5px;
   background-color: rgb(255,255,255,0.8);
   transition: 0.15s all ease;
 } 
 
-
+.Contactus label{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
 
 .Contactus textarea{
   padding: 10px 20px;
@@ -233,14 +282,19 @@
   font-size: 15px;
   margin-bottom: 10px;
   background-color: rgb(255, 255, 255, 0.8);
+  resize: none;
 }
 .Contactus button{
   background-color: #282c34;
   color: white;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   border-radius: 10px;
-  font-size: 15px;
+  text-align: center;
+  padding: 10px ;
+
   cursor: pointer;
+  width:20%;
+  margin-left: 40%;
 }
 .Contactus button:hover{
   box-shadow:  1px 1px black;
@@ -250,8 +304,9 @@
   font-size: 40px;
 }
 .collection h2{
-  color: red;
-  font-size: 40px;
+color: rgb(3,
+      4,
+      94);  font-size: 40px;
 }
 .Ourcollection{
   display: flex;
@@ -259,6 +314,7 @@
   column-gap: 10px;
   row-gap: 20px;
   align-items: center;
+  justify-content: center;
   color: white;
   padding: 10px 20px;
   font-size: x-large;
@@ -267,10 +323,10 @@
 .footer{
   position: absolute;
   bottom: 0px;
- margin-top: 50px;
+ margin-top: 30px;
   width:100%;
-  background-color: #f6276c;
-  
+  background-color:rgb(33, 158, 188);
+  height: 30px;
 }
 .footer-text a img{
   width:20px;

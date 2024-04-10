@@ -5,6 +5,7 @@ import Bestsellers from './Bestsellers';
 import Ourcollectionss from './Ourcollectionss';
 import Contactusform from './Contactusform';
 import Footer from './Footer';
+import Review from './Review';
 function App() {
    return (
     <div className="App" id='App'>
@@ -15,9 +16,10 @@ function App() {
           <About/>
         <Bestsellers/>
         <Ourcollectionss/>
+        {/* <Review/> */}
         <Contactusform/>
         <Footer/>
-        <div className='topbtn'><a href="#App" className="top">^</a></div>
+           <div className='topbtn'><a href="#App" className="top">^</a></div>
     </div>
   );
 }

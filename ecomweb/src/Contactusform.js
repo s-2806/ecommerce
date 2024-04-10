@@ -3,7 +3,7 @@ const Contactusform = () => {
       <div className="Contactus" id='contactus'>
         
         <form>
-            <h3>Contact us form</h3>
+            <h3>Contact us</h3>
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Name"/>
             <label for="email">Email</label>

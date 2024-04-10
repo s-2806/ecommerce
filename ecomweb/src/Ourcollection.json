@@ -1,6 +1,6 @@
     [
         {
-            "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
+            "image":"/img/2359.webp",
             "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
             "author": " Eric Ries",
             "price": 1099
@@ -10,96 +10,96 @@
             "title": "Book 2",
             "author": "Author 2",
             "genre": "Genre 2",
-            "price": 12.99
+            "price": 1299
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 3",
             "author": "Author 3",
             "genre": "Genre 3",
-            "price": 9.99
+            "price": 999
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 4",
             "author": "Author 4",
             "genre": "Genre 4",
-            "price": 14.99
+            "price": 1499
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 5",
             "author": "Author 5",
             "genre": "Genre 5",
-            "price": 8.99
+            "price": 899
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 6",
             "author": "Author 6",
             "genre": "Genre 6",
-            "price": 11.99
+            "price": 1199
         },
         {
-            "image":"https://tse1.mm.bing.net/th?id=OIP.CdyrOwdv2Mre-ZhrSzJ7lwHaJM&pid=Api&P=0&h=180",
+            "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 7",
             "author": "Author 7",
             "genre": "Genre 7",
-            "price": 13.99
+            "price": 1399
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 8",
             "author": "Author 8",
             "genre": "Genre 8",
-            "price": 7.99
+            "price": 799
         },
         {
             "image":"https://tse3.mm.bing.net/th?id=OIP.5hZoDAB3hlq_ZWRZ70uxMAHaLH&pid=Api&P=0&h=180",
             "title": "Book 9",
             "author": "Author 9",
             "genre": "Genre 9",
-            "price": 15.99
+            "price": 1599
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.P1hfBfyKdnmO2R82Ow3lewHaLH&pid=Api&P=0&h=180",
             "title": "Book 10",
             "author": "Author 10",
             "genre": "Genre 10",
-            "price": 6.99
+            "price": 699
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 11",
             "author": "Author 11",
             "genre": "Genre 11",
-            "price": 16.99
+            "price": 1699
         },
         {
-            "image":"https://tse3.mm.bing.net/th?id=OIP.VxSanB1PXynZLaLd8quuJgHaF6&pid=Api&P=0&h=180",
+            "image":"https://tse4.mm.bing.net/th?id=OIP.2V7Tc3rJH6Ae_ki09nJe6QHaK2&pid=Api&P=0&h=180",
             "title": "Book 12",
             "author": "Author 12",
             "genre": "Genre 12",
-            "price": 5.99
+            "price": 599
         },
         {
             "image":"https://tse4.mm.bing.net/th?id=OIP.8o2hwiaKDPV7zxVW_OZzsgHaKx&pid=Api&P=0&h=180",
             "author": "Author 13",
             "genre": "Genre 13",
-            "price": 17.99
+            "price": 1799
         },
         {
             "image":"https://i.guim.co.uk/img/media/70f5ffb1240b4a6bcacbc4ca6752909e00f8291a/0_0_2359_3543/master/2359.jpg?w=1200&q=55&auto=format&usm=12&fit=max&s=a56983e41bb03a641a783937e89a9da4",
             "title": "Book 14",
             "author": "Author 14",
             "genre": "Genre 14",
-            "price": 4.99
+            "price": 499
         },
         {
-            "image":"./2359.webp",
+            "image":"/img/gatsby img.jpeg",
             "title": "Book 15",
             "author": "Author 15",
             "genre": "Genre 15",
-            "price": 18.99
+            "price": 1899
         }
     ]

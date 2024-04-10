@@ -1,5 +1,5 @@
-{
-    "bestsellers":[
+[
+    
         {
             "id":1,
             "image":"https://tse4.mm.bing.net/th?id=OIP.P1hfBfyKdnmO2R82Ow3lewHaLH&pid=Api&P=0&h=180",
@@ -23,11 +23,11 @@
         },
         {
             "id":4,
-            "image":"https://tse1.mm.bing.net/th?id=OIP.CdyrOwdv2Mre-ZhrSzJ7lwHaJM&pid=Api&P=0&h=180",
+            "image":"/img/2359.webp",
             "name":"1984",
             "author":"George Orwell",
             "price":999
         }
        
+    
     ]
-}

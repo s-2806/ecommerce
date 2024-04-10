@@ -1,0 +1,20 @@
+ [
+        {
+            "img":"/img/profile3.jpeg",
+            "book": "Book 1",
+            "rating": 4.5,
+            "comment": "This book was amazing! Highly recommended."
+        },
+        {
+            "img":"/img/profile.jpeg",
+            "book": "Book 2",
+            "rating": 3.8,
+            "comment": "Decent book, but could have been better."
+        },
+        {
+            "img":"/img/profile 2.webp",
+            "book": "Book 3",
+            "rating": 5,
+            "comment": "Absolutely loved this book. A must-read!"
+        }
+    ]
