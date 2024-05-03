@@ -1,9 +1,9 @@
 const Reviewbox = ({review}) => {
     return (  
         <div className='Reviewseperate'>
-          <div>  <img src={review.image} alt={review.name} /></div>
-          <div>  <h3>{review.name}</h3>
-            <p>{review.opinion}</p></div>
+          <div className="reviewimg"> <div> <img src={review.image} alt={review.book} /></div><div>Rating:{review.rating}</div></div>
+          <div> 
+            <p>{review.comment}</p></div>
         </div>
     );
 }

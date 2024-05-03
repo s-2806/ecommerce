@@ -16,7 +16,7 @@ function App() {
           <About/>
         <Bestsellers/>
         <Ourcollectionss/>
-        {/* <Review/> */}
+        <Review/>
         <Contactusform/>
         <Footer/>
            <div className='topbtn'><a href="#App" className="top">^</a></div>

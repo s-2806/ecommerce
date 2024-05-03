@@ -1,11 +1,13 @@
 import Reviewbox from './Reviewbox';
+import React from 'react';
 import Reviewsection  from './Reviewsection.json';
 const Review = () => {
     return (
-        <div className='Review'> 
+        <div id='Review'> 
         <h2>Review section</h2>
-         {Reviewsection.map((review) => (<Reviewbox opinion={review}/>))}
-        </div>
+        <div className="reviewin">
+           {Reviewsection.map((review) => (<Reviewbox review={review}/>))}
+        </div></div>
       );
 }
  

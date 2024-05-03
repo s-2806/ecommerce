@@ -11,6 +11,7 @@ const Nav = () => {
             <a href="#About">About </a>
             <a href="#Bestsellers">Best sellers</a>  
             <a href="#collection">Our collections</a>
+            <a href="#Review">Reviews</a>
             <a href="#contactus">Contact us</a>       
             </div>
 

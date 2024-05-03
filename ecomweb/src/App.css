@@ -1,6 +1,11 @@
 * {
   scroll-behavior: smooth;
 }
+.sevillana-regular {
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .App {
   text-align: center;
@@ -16,16 +21,18 @@
   left:99%;
   background-color: #282c34;
   color: white;
-  border-radius: 20px;
-  font-size: 5%;
+  border-radius: 80px;
+  
  
 }
 .topbtn a{
   color: white;
   text-decoration: none;
+  font-size: x-large;
  /* background-color: white; */
  font-size: x-large;
 cursor: pointer;
+
 }
 /* .topbtn:hover{
   color: black;
@@ -86,8 +93,11 @@ cursor: pointer;
   background-color: rgb(33,158,188);
   color: white;
   padding: 10px 20px;
-  font-size: large;
+    font-family: "Sevillana", cursive;
+  font-size: x-large;
+
 }
+
 .Navbarleftside {
   display: flex;
   justify-content: space-around;
@@ -96,7 +106,8 @@ cursor: pointer;
   background-color: rgb(33, 158, 188);
   color: white;
   padding: 10px 20px;
-  font-size: x-large;
+  font-size: xx-large;
+    font-family: "Sevillana", cursive;
 }
 .Navbarrightside a {
   color: white;
@@ -108,6 +119,7 @@ cursor: pointer;
 .Navbarrightside a:hover {
   color: black;
   background-color: white;
+transition: all 0.25s ease-in;
 }
 .B{
   color: rgb(255, 255, 255);
@@ -145,7 +157,8 @@ cursor: pointer;
 .About{
   margin-top: 2%;
   position: absolute;
-  background: "https: //i.etsystatic.com/7758902/r/il/813bf0/3270241369/il_1588xN.3270241369_2i9s.jpg";
+font-family: "Sevillana", cursive;
+ /* background: "https: //i.etsystatic.com/7758902/r/il/813bf0/3270241369/il_1588xN.3270241369_2i9s.jpg"; */
 }
 /* #background{
   background-image: url(http://cliparts.co/cliparts/yck/rp5/yckrp5kqi.jpg);
@@ -157,7 +170,7 @@ cursor: pointer;
   column-gap: 1px;
   align-items: center;
   color: black;
-    font-size: 2vw;
+    font-size: 5vh;
     margin-right:30% ;
 }
 .headingbestsellers{
@@ -165,6 +178,8 @@ cursor: pointer;
     4,
     94);
   font-size: 40px;
+  font-family: "Sevillana", cursive;
+  
 }
 /* .heart{
   width: 50px;
@@ -185,6 +200,8 @@ cursor: pointer;
   padding: 10px 20px;
   font-size: x-large;
   flex-wrap: wrap;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 .card{
   width:22%;
@@ -194,7 +211,11 @@ cursor: pointer;
   padding:5px;
   font-size: 65%;
   color: black;
-  background-color: rgb(142, 202, 230);
+  /* background-color: rgb(142, 202, 230); */
+  border: 2px solid rgb(142, 202, 230);
+}
+.card:hover{
+  box-shadow: 0 0 7px 0px rgb(142, 202, 230);
 }
 .card img.bookcover {
   width: 60%;
@@ -238,6 +259,46 @@ cursor: pointer;
   cursor: pointer;
  background-color: rgb(255, 255, 255);
 }
+#Review h2{
+  color: rgb(3,
+      4,
+      94); 
+       font-size: 40px;
+font-family: "Sevillana", cursive;
+}
+.reviewin{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+
+      border-bottom: 2px solid black;
+  
+}
+.Reviewseperate{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: x-large;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  border-radius: 80px;
+  padding: 25px;
+  box-shadow: #282c34 3px 3px 3px 3px;
+    
+}
+.Reviewseperate img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
 .Contactus{
   margin-top: 50px;
   margin-bottom: 50px;;
@@ -247,9 +308,11 @@ cursor: pointer;
   margin-right: 30%;
   padding: 10px 20px;
   border-radius: 10px;
-  background-color:rgb(33, 158, 188);
-  box-shadow: 0 0 10px 0 black
-
+  /* background-color:rgb(33, 158, 188); */
+  box-shadow: 0 0 10px 0 black;
+  border: 5px solid rgb(142, 202, 230);
+  color: rgb(33, 158, 188)
+  
 }
 .Contactus form{
   display: flex;
@@ -257,10 +320,11 @@ cursor: pointer;
   justify-content: space-between;
   row-gap: 10px;
    /* align-items: center;  */
-  background-color:rgb(33, 158, 188);
-  color: white;
+  /* background-color:rgb(33, 158, 188); */
+  color: rgb(33, 158, 188);
   padding: 10px 2px;
   font-size: 25px;
+  font-family: "Sevillana", cursive;
 }
 .Contactus input{
   padding: 10px 20px;
@@ -274,6 +338,8 @@ cursor: pointer;
   color: white;
   text-align: left;
   font-size: 20px;
+  color: rgb(33, 158, 188)
+ 
 }
 
 .Contactus textarea{
@@ -285,8 +351,8 @@ cursor: pointer;
   resize: none;
 }
 .Contactus button{
-  background-color: #282c34;
-  color: white;
+  background-color: white;
+  color: rgb(33, 158, 188);
   /* padding: 10px 20px; */
   border-radius: 10px;
   text-align: center;
@@ -300,13 +366,14 @@ cursor: pointer;
   box-shadow:  1px 1px black;
 }
 .Contactus h3{
-  color: white;
+  color: rgb(33, 158, 188);
   font-size: 40px;
 }
 .collection h2{
 color: rgb(3,
       4,
       94);  font-size: 40px;
+      font-family: "Sevillana", cursive;
 }
 .Ourcollection{
   display: flex;
@@ -319,6 +386,9 @@ color: rgb(3,
   padding: 10px 20px;
   font-size: x-large;
   flex-wrap: wrap;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  
 }
 .footer{
   position: absolute;
